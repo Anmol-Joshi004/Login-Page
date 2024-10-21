@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to IIT Indore</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff; /* Changed to white */
+            text-align: center; /* Centered text */
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        img {
+            max-width: 100px; /* Smaller logo */
+            margin-bottom: 20px;
+            position: absolute;
+            top: 20px;
+            left: 20px; /* Positioning the logo */
+        }
+        .course-table {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center; /* Center text in table */
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #e7f1ff; /* Light blue for even rows */
+        }
+        tr:nth-child(odd) {
+            background-color: #d4edda; /* Light green for odd rows */
+        }
+        .signout-button {
+            margin-top: 20px; /* Space above the button */
+            font-style: italic; /* Italics */
+            color: black; /* Changed to black */
+        }
+        @media (max-width: 768px) {
+            img {
+                max-width: 80px; /* Adjusted size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to IIT Indore</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png" alt="IIT Indore Logo">
+
+    <h2>2nd Year B.Tech. (Computer Science and Engineering)</h2>
+
+    <div class="course-table">
+        <h3>Semester III</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Weekly Contact Hours (L-T-P)</th>
+                    <th>Total Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>ZZ 2XX</td><td>Course-I for Minor Program</td><td>x-x-x</td><td>3</td></tr>
+                <tr><td>MA 205</td><td>Complex Analysis</td><td>3-1-0</td><td>2</td></tr>
+                <tr><td>MA 207</td><td>Differential Equations-II</td><td>3-1-0</td><td>2</td></tr>
+                <tr><td>CS 201</td><td>Discrete Mathematical Structures</td><td>2-1-0</td><td>3</td></tr>
+                <tr><td>CS 203</td><td>Data Structures and Algorithms</td><td>2-1-0</td><td>3</td></tr>
+                <tr><td>CS 207</td><td>Database and Information Systems</td><td>2-1-0</td><td>3</td></tr>
+                <tr><td>CS 209</td><td>Logic Design</td><td>2-0-2</td><td>3</td></tr>
+                <tr><td>CS 253</td><td>Data Structures and Algorithms Lab</td><td>0-0-3</td><td>1.5</td></tr>
+                <tr><td>CS 257</td><td>Database and Information Systems Lab</td><td>0-0-3</td><td>1.5</td></tr>
+                <tr><td>CS 2XX</td><td>Department Elective I</td><td>x-x-x</td><td>3</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <a href="/signout/" class="btn btn-danger signout-button">Sign Out</a>
+
+</body>
+</html>
